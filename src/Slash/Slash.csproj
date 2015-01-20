@@ -7,8 +7,8 @@
     <ProjectGuid>{44EF4975-F79B-42B9-A996-2FB51E289C5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StashCity</RootNamespace>
-    <AssemblyName>StashCity</AssemblyName>
+    <RootNamespace>Slash</RootNamespace>
+    <AssemblyName>Slash</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

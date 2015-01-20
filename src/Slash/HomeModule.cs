@@ -1,10 +1,10 @@
-﻿namespace StashCity
+﻿namespace Slash
 {
     using System;
+    using System.Linq;
     using Nancy;
     using Nancy.ModelBinding;
     using Slack.Webhooks;
-    using System.Linq;
 
     public class HomeModule : NancyModule
     {

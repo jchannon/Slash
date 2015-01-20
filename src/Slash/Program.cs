@@ -1,4 +1,4 @@
-﻿namespace StashCity
+﻿namespace Slash
 {
     using System;
     using Nancy.Hosting.Self;

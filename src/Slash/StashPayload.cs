@@ -1,4 +1,4 @@
-﻿namespace StashCity
+﻿namespace Slash
 {
     public class StashPayload
     {
