@@ -200,3 +200,4 @@ FakesAssemblies/
 *.DS_Store
 *.userprefs
 
+*.Release.config

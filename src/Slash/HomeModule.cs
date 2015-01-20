@@ -1,6 +1,7 @@
 ﻿namespace Slash
 {
     using System;
+    using System.Configuration;
     using System.Linq;
     using Nancy;
     using Nancy.ModelBinding;
@@ -16,7 +17,7 @@
                 {
                     var model = this.Bind<StashPayload>();
 
-                    var slackClient = new SlackClient("https://hooks.slack.com/services/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");
+                    var slackClient = new SlackClient(ConfigurationManager.AppSettings["Webhook"]);
 
                     var success = slackClient.Post(new SlackMessage
                     {
